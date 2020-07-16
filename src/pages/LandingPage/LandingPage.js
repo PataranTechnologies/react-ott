@@ -1,10 +1,11 @@
-import React from 'react';
+import React , { Component } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 
 import styles from "./LandingPage.module.css";
 
-const LandingPage = () => {
-    const history = useHistory();
+class LandingPage extends Component{
+    render(){
+    // const history = useHistory();
     return (
         <div className={styles.landingPageContainer}>
             <nav className={styles.mainNavigation}>
@@ -14,7 +15,7 @@ const LandingPage = () => {
             <div className={styles.heroSection}>
                 <h1 className={styles.primaryHeading}>Unlimited movies, TV shows and more.</h1>
                 <p className={styles.secondaryHeading}>Watch anywhere. Cancel anytime.</p>
-                <form className={styles.registerEmailForm} onSubmit={() => {history.push("/register")}}>
+                <form className={styles.registerEmailForm} >
                     <input type="email" placeholder="Email Address" name="email" className={styles.emailInput}/>
                     <button type="submit" className={styles.submitBtn}>GET STARTED</button>
                 </form>
@@ -22,6 +23,7 @@ const LandingPage = () => {
             </div>
         </div>
     );
-};
+    }
+}
 
 export default LandingPage;

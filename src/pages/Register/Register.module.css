@@ -41,6 +41,12 @@
     color: #c4c4c4;
 }
 
+.authSwitch{
+    color: #dadada;
+    font-size: 0.9rem;
+    text-decoration: none;
+}
+
 .registerBtn {
     width: 75%;
     margin: 1rem auto;
@@ -53,22 +59,6 @@
     outline: none;
     border: none;
     border-radius: 5px;
-}
-
-.registerForm::after {
-    content: 'Need help?';
-    text-align: right;
-    color: #c4c4c4;
-    cursor: pointer;
-}
-
-.revertBack{
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
-    color: #dadada;
-    text-decoration: none;
-    font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 1100px) {

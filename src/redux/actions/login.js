@@ -19,13 +19,13 @@ export default ({ username, password }) => (dispatch) => {
 };
 
 /**
- * trigger admin login
+ * trigger user login
  * @param {String} username
  * @param {String} password
  * @param {String} email
  * @param {String} status
 */
-export const adminLogin = ({ username, password, email, status }) => (dispatch) => {
+export const userLogin = ({ username, password, email, status }) => (dispatch) => {
 	const body = { username, password, email, status };
 	dispatch(fetchAction({ fetching: true }));
 	axios.post(APPLICATION_ROUTES.USER_REGISTER, body)

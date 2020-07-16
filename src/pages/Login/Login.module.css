@@ -55,20 +55,10 @@
     border-radius: 5px;
 }
 
-.loginForm::after {
-    content: 'Need help?';
-    text-align: right;
-    color: #c4c4c4;
-    cursor: pointer;
-}
-
-.revertBack{
-    position: absolute;
-    top: 1rem;
-    left: 1rem;
+.authSwitch{
     color: #dadada;
+    font-size: 0.9rem;
     text-decoration: none;
-    font-size: 1.2rem;
 }
 
 @media only screen and (max-width: 1100px) {
