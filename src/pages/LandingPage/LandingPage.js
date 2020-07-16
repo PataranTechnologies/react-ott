@@ -1,9 +1,10 @@
-import React from 'react';
+import React , { Component } from 'react';
 import { Link, useHistory } from 'react-router-dom';
 
 import styles from "./LandingPage.module.css";
 
-const LandingPage = () => {
+class LandingPage extends Component{
+    render(){
     const history = useHistory();
     return (
         <div className={styles.landingPageContainer}>
@@ -22,6 +23,7 @@ const LandingPage = () => {
             </div>
         </div>
     );
-};
+    }
+}
 
 export default LandingPage;
