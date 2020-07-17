@@ -1,0 +1,34 @@
+{
+  "users": [
+    {
+      "email": "test1@test.com",
+      "password": "$2a$10$ysSMXpGzHxmGwO8EU1hyBecR3cw/sp0zTA.y1hBdlK.riTS8hJNEu",
+      "name": "Test1",
+      "id": 5
+    },
+    {
+      "email": "test2@test.com",
+      "password": "$2a$10$QvXnd2gnrg.aqoAlNdy.GestXBWKs3SX66veSsmNLfmB4uCgexUO2",
+      "name": "A B",
+      "id": 6
+    },
+    {
+      "email": "test3@test.com",
+      "password": "$2a$10$h9tdnJ7bnYM/SbLacl.JLODu9WspEBNZh.Vtm5x2CHbYpdDpXF3nK",
+      "name": "Rahul Sharma",
+      "id": 7
+    },
+    {
+      "email": "test4@test.com",
+      "password": "$2a$10$Ct/k00j.VuQvgq3FZDeNeuYqqVU8qIIbR1zrlfebTGdl0daGNXFIO",
+      "name": "Manish",
+      "id": 8
+    },
+    {
+      "email": "punitpratapsingh30@gmail.com",
+      "password": "$2a$10$S3JjK49uauIz/Ev5TdJLZORXaHaMFghD1bbf5O.0FjAxo5ypa.U0m",
+      "name": "punit pratap singh",
+      "id": 9
+    }
+  ]
+}

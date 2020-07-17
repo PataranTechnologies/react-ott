@@ -1,11 +1,21 @@
 import React , { Component } from 'react';
-import { Link, useHistory } from 'react-router-dom';
+import { Link, withRouter } from 'react-router-dom';
 
 import styles from "./LandingPage.module.css";
 
 class LandingPage extends Component{
+
+    constructor(props){
+        super(props);
+        this.formSubmitHandler = this.formSubmitHandler.bind(this);
+    }
+
+    formSubmitHandler(e){
+        e.preventDefault();
+        this.props.history.push("/register");
+    }
+
     render(){
-    // const history = useHistory();
     return (
         <div className={styles.landingPageContainer}>
             <nav className={styles.mainNavigation}>
@@ -15,7 +25,7 @@ class LandingPage extends Component{
             <div className={styles.heroSection}>
                 <h1 className={styles.primaryHeading}>Unlimited movies, TV shows and more.</h1>
                 <p className={styles.secondaryHeading}>Watch anywhere. Cancel anytime.</p>
-                <form className={styles.registerEmailForm} >
+                <form className={styles.registerEmailForm} onSubmit={this.formSubmitHandler}>
                     <input type="email" placeholder="Email Address" name="email" className={styles.emailInput}/>
                     <button type="submit" className={styles.submitBtn}>GET STARTED</button>
                 </form>
@@ -26,4 +36,4 @@ class LandingPage extends Component{
     }
 }
 
-export default LandingPage;
+export default withRouter(LandingPage);

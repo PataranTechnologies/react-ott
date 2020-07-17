@@ -1,4 +1,5 @@
 export { default as fetchReducer } from './fetch';
+// export { default as userReducer } from './user';
 export { default as loginReducer } from './login';
 export { default as navigationReducer } from './navigation';
 export { default as dashboardReducer } from './dashboard';

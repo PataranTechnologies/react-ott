@@ -3,7 +3,7 @@ import { LOGIN_FETCH, LOGIN_PAYLOAD, FETCHING } from './actionTypes';
 import { fetchAction } from '.';
 import { APPLICATION_ROUTES } from '../../constants.js';
 
-export default ({ username, password }) => (dispatch) => {
+export const userLogin = ({ username, password }) => (dispatch) => {
 	const body = { username, password };
 	axios.post(APPLICATION_ROUTES.LOGIN, body, {
 		headers: { 'Content-Type': 'application/json' },
@@ -25,7 +25,7 @@ export default ({ username, password }) => (dispatch) => {
  * @param {String} email
  * @param {String} status
 */
-export const userLogin = ({ username, password, email, status }) => (dispatch) => {
+export const userRegister = ({ username, password, email, status }) => (dispatch) => {
 	const body = { username, password, email, status };
 	dispatch(fetchAction({ fetching: true }));
 	axios.post(APPLICATION_ROUTES.USER_REGISTER, body)
