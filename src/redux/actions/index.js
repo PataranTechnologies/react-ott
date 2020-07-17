@@ -2,7 +2,7 @@
 export { default as fetchAction } from './fetch';
 export { default as error } from './error';
 // export { default as searchAction } from './searchAction';
-export { userLogin, userRegister } from './login';
+export { userLogin } from './login';
 /**
  * user actions
  */
