@@ -12,8 +12,6 @@ class LandingPage extends Component{
 
     formSubmitHandler(e){
         e.preventDefault();
-        console.log(this);
-        console.log(this.props);
         this.props.history.push("/register");
     }
 

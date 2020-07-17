@@ -1,0 +1,64 @@
+{
+    "movies":[
+        {
+            "id": 1,
+            "name": "Iron Man",
+            "description": "This is a very beautiful movie. One of the career defining roles for the lead actor!",
+            "year": 50
+        },
+        {
+            "id": 2,
+            "name": "Endgame",
+            "description": "This is a very beautiful movie. One of the career defining roles for the lead actor!",
+            "year": 350
+        },
+        {
+            "id": 3,
+            "name": "Guardians of the Galaxy",
+            "description": "TThis is a very beautiful movie. One of the career defining roles for the lead actor!",
+            "year": 45
+        },
+        {
+            "id": 4,
+            "name": "Black Panther",
+            "description": "This is a very beautiful movie. One of the career defining roles for the lead actor!",
+            "year": 20
+        },
+        {
+            "id": 5,
+            "name": "Civil War",
+            "description": "This is a very beautiful movie. One of the career defining roles for the lead actor!",
+            "year": 100000
+        },
+        {
+            "id": 6,
+            "name": "Ant Man",
+            "description": "This is a very beautiful movie. One of the career defining roles for the lead actor!",
+            "year": 5000
+        },
+        {
+            "id": 7,
+            "name": "Spider Man",
+            "description": "This is a very beautiful movie. One of the career defining roles for the lead actor!",
+            "year": 10000
+        },
+        {
+            "id": 8,
+            "name": "Black Widow",
+            "description": "This is a very beautiful movie. One of the career defining roles for the lead actor!",
+            "year": 50000
+        },
+        {
+            "id": 9,
+            "name": "Thor",
+            "description": "This is a very beautiful movie. One of the career defining roles for the lead actor!",
+            "year": 60
+        },
+        {
+            "id": 10,
+            "name": "Captain America",
+            "description": "This is a very beautiful movie. One of the career defining roles for the lead actor!",
+            "year": 500
+        }
+    ]
+}
